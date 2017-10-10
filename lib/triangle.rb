@@ -21,7 +21,7 @@ class Triangle
     elsif side_array.uniq.length == 2
       return :isosceles
     elsif  side_array.uniq.length == 3
-      return scalene
+      return :scalene
     end
   end
 
