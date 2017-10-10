@@ -6,7 +6,7 @@ class Triangle
     @side1=side1
     @side2=side2
     @side3=side3
-    
+
   end
 
   def kind
@@ -15,7 +15,7 @@ class Triangle
     side_array <<side1
     side_array <<side2
     side_array <<side3
-    
+
     if side_array.uniq.length == 1
       return :equilateral
     elsif side_array.uniq.length == 2
@@ -24,10 +24,10 @@ class Triangle
       return scalene
     end
   end
-  
-  
+
+
 end
 
 
 class TriangleError < StandardError
-  
+end
