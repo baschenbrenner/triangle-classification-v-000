@@ -8,7 +8,6 @@ class Triangle
         raise TriangleError
     elsif side1+side2<side3 || side2+side3<side1 || side1+side3<side2
         raise TriangleError
-
     else
       @sides << side1
       @sides << side2
