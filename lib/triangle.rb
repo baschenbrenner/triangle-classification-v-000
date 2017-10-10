@@ -3,7 +3,7 @@ class Triangle
 
 
   def initialize(side1,side2,side3)
-    if side1<0 || side2<0 || side3<0
+    if side1<=0 || side2<=0 || side3<=0
         raise TriangleError
     else
 
